@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+    max-width: 1200px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+#secondcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.leftnav{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.rightnav{
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid grey;
+    padding: 10px;
+}
