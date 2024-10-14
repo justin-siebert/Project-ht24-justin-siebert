@@ -1,6 +1,12 @@
 body{
     margin: auto;
     max-width: 1200px;
+    font-family: Inter;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(material/Inter.ttf);
 }
 
 #container{
@@ -8,11 +14,25 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid grey;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    top: 0px;
+    background-color: white;
 }
 
 #secondcontainer{
     display: flex;
     align-items: center;
+}
+
+#barky{
+    width: 100px;
+}
+
+#pil{
+    object-fit: contain;
+    height: 7px;
 }
 
 .leftnav{
@@ -30,7 +50,7 @@ body{
 
 main{
     max-width: 1000px;
-    margin: auto;
+    margin: 100px auto;
 }
 
 #container-main-lr{
@@ -60,7 +80,6 @@ main{
     flex-direction: column;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    flex-wrap: wrap;
 }
 
 #bildrad1 img{
@@ -79,19 +98,23 @@ main{
 }
 
 .h1bigpic{
-
+margin-bottom: 0px;
 }
 
 .poverpic{
-
+    margin-top: 0px;
 }
 
 .bigpic{
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
 }
 
 .punderpic{
-
+    color: #7f7f7f;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 450;
 }
 
 .containerfacepic{
