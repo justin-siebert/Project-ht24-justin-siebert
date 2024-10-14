@@ -35,19 +35,19 @@ main{
 
 #container-main-lr{
     display: flex;
-    gap: 100;
+    gap: 20px;
     align-items: center;
-    
+
 }
 
 #container-main-r img{
-    width: 450px;
+    width: 100%;
     text-align: center;
 }
 
 #container-main-l{
     text-align: left;
-    width: 500px;
+    width: 100%;
 }
 
 #container-main-l h1{
@@ -60,6 +60,7 @@ main{
     flex-direction: column;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    flex-wrap: wrap;
 }
 
 #bildrad1 img{
@@ -70,4 +71,43 @@ main{
 #bildrad2 img{
     padding: 10px;
     width: 100px;
+}
+
+#container-main-class{
+    display: flex;
+    flex-direction: column;
+}
+
+.h1bigpic{
+
+}
+
+.poverpic{
+
+}
+
+.bigpic{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.punderpic{
+
+}
+
+.containerfacepic{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.facepic{
+    height: 100px;
+    width: 100px;
+    align-self: flex-start;
+}
+
+.h3facepic{
+ 
 }
