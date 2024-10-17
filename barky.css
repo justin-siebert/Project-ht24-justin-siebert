@@ -56,6 +56,7 @@ body{
     border-radius: 5px;
     padding: 10px 15px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 main{
@@ -71,7 +72,13 @@ main{
 }
 
 #container-main-l h1{
-    font-size: 36px;
+    font-size: 46px;
+    margin: 0;
+}
+
+#container-main-l p{
+    color: #7f7f7f;
+    margin: 20px 0;
 }
 
 #container-main-r img{
@@ -84,16 +91,12 @@ main{
     width: 100%;
 }
 
-#container-main-l h1{
-    font-size: 53px;
-}
-
 #bildrad{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 #bildrad1 img{
@@ -109,14 +112,22 @@ main{
 #container-main-class{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    
 }
 
 .h1bigpic{
-margin-bottom: 0px;
+margin-bottom: 0;
+font-weight: 650;
 }
 
 .poverpic{
     margin-top: 0px;
+    color: #999999;
+    font-size: 13.5;
+    width: 50%;
 }
 
 .bigpic{
@@ -126,7 +137,7 @@ border-radius: 5px;
 
 .punderpic{
     color: #7f7f7f;
-    font-size: 26px;
+    font-size: 36px;
     text-align: center;
     font-weight: 550;
 }
@@ -149,7 +160,78 @@ border-radius: 5px;
     font-size: 12px;
 }
 
-#facepicp{   
+.facepicp{   
     font-size: 12px;
     color: #999999;
+}
+
+#features{
+    background-color: #f4f4f4 ;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+#features div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.plan img{
+    height: 20px;
+    width: 20px;
+    margin: 10px 0;
+}
+
+.plan p{
+    margin: 10px 0;
+    font-size: 12p;
+    color: #999999;
+}
+
+#features #bordernone{
+    border: none;
+}
+
+.freetry{
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    border-top: 1px solid #e5e5e5;
+    color: #666666;
+    padding: 50px 10px 10px 30px;
+
+    
+}
+
+.freetry h1{
+    color: #050505;
+    font-weight: 650;
+}
+
+#epdsection{
+    display: flex;
+    gap: 10px;
+   text-align: center;
+   margin-top: 50px;
+}
+
+#borderlr{
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+#epdsection p{
+    color: #999999;
+}
+
+#epdsection a{
+    color: #050505;
+}
+
+#epdsection h1{
+    font-size: 26px;
+    font-weight: 650;
 }
