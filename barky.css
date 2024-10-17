@@ -64,23 +64,6 @@ main{
     margin: 100px auto;
 }
 
-#container-main-lr{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-bottom: 100px;
-}
-
-#container-main-l h1{
-    font-size: 46px;
-    margin: 0;
-}
-
-#container-main-l p{
-    color: #7f7f7f;
-    margin: 20px 0;
-}
-
 #container-main-r img{
     width: 100%;
     text-align: center;
@@ -234,4 +217,25 @@ border-radius: 5px;
 #epdsection h1{
     font-size: 26px;
     font-weight: 650;
+}
+
+.flexination{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.flexination-r img{
+    width: 500px;
+  
+}
+
+.flexination-l h1{
+    font-size: 46px;
+    margin: 0;
+}
+
+.flexination-l p{
+    color: #7f7f7f;
+    margin: 20px 0;
 }
