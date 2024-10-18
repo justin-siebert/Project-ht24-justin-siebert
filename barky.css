@@ -77,19 +77,15 @@ main{
 #bildrad{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
+    flex-wrap: wrap;
 }
 
-#bildrad1 img{
-    padding: 10px;
-    width: 100px;
-}
-
-#bildrad2 img{
-    padding: 10px;
-    width: 100px;
+#bildrad img{
+    padding: 20px;
+    height: 25px;
 }
 
 #container-main-class{
@@ -98,7 +94,7 @@ main{
     gap: 10px;
     margin-top: 50px;
     padding-bottom: 70px;
-    
+    border-bottom: 1px solid #e5e5e5;  
 }
 
 .h1bigpic{
@@ -114,8 +110,8 @@ font-weight: 650;
 }
 
 .bigpic{
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .punderpic{
@@ -182,11 +178,8 @@ border-radius: 5px;
     text-align: center;
     margin: auto;
     font-size: 14px;
-    border-top: 1px solid #e5e5e5;
     color: #666666;
     padding: 50px 10px 10px 30px;
-
-    
 }
 
 .freetry h1{
@@ -256,6 +249,7 @@ border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
+    margin-top: 50px;
 }
 
 .procentborder{
@@ -269,4 +263,81 @@ border-radius: 5px;
     margin-top: 30px;
     font-weight: 650;
 }
+
+.procentborder p{
+    color: #999999;
+}
+
+#gridsecondtry{
+    gap: 5px;
+}
+
+#gridsecondtry img{
+    height: 40px;
+}
+
+#rightsize img{
+    height: 30px;
+}
+#foot{
+    display: grid;
+    grid-template-columns: 300px auto;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+#footer-navigation{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 70px;
+}
+
+.block a{
+    text-decoration: none;
+    color: #999999;
+}
+
+footer{
+    border-top: 1px solid #e5e5e5;
+    max-width: 1200px;
+}
+
+.black a{
+    color: black;
+}
+
+#hamburger{
+display: none;
+height: 30px;
+width: 30px;
+}
+
+@media (max-width: 600px) {
+    .leftnav, #bort{
+        display: none;
+    }
+
+    #hamburger{
+       display: flex;
+    }
+
+    .flexination{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .h1bigpic, .poverpic, .punderpic{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+}
+
 
