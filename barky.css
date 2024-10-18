@@ -317,6 +317,11 @@ height: 30px;
 width: 30px;
 }
 
+span{
+    color: #050505;
+    font-weight: 450;
+}
+
 @media (max-width: 600px) {
     .leftnav, #bort{
         display: none;
@@ -324,6 +329,10 @@ width: 30px;
 
     #hamburger{
        display: flex;
+    }
+
+    #hamburger:hover{
+        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .flexination{
@@ -336,8 +345,32 @@ width: 30px;
     .h1bigpic, .poverpic, .punderpic{
         text-align: center;
         margin: auto;
-        width: 100%;
+        width: 90%;
+        padding: 10px;
     }
+
+    .bigpic{
+       margin: auto;
+       width: 80%; 
+    }
+
+    #foot{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    #footer-navigation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #gridsecondtry{
+        margin-left: 10px;
+    }
+  
 }
 
 
