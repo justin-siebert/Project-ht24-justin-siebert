@@ -121,7 +121,7 @@ font-weight: 650;
     margin-top: 0px;
     color: #999999;
     font-size: 13.5;
-    width: 50%;
+    width: 49%;
 }
 
 .bigpic{
@@ -220,6 +220,10 @@ font-weight: 650;
 
 #epdsection a{
     color: #050505;
+}
+
+#epdsection a:hover{
+color: #087fe7;
 }
 
 #epdsection h1{
