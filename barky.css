@@ -51,19 +51,27 @@ body{
 }
 
 .getbarky{
-    background-color: black;
+    background-color: #050505;
     color: white;
     border-radius: 5px;
     padding: 10px 15px;
     text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.2);
 }
 
+.getbarky:hover{
+background-color: rgba(8, 8, 8, 0.8)
+}
+
+#borderl{
+    border-left: 1px solid #e5e5e5 ;
+}
 .leftnav:hover{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(71, 70, 70, 0.2);
 }
 
 .rightnav:hover{
-    background-color: rgba(0, 0, 0, 0.2) ;
+    background-color: rgba(71, 70, 70, 0.2) ;
 }
 
 main{
