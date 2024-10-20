@@ -56,7 +56,14 @@ body{
     border-radius: 5px;
     padding: 10px 15px;
     text-decoration: none;
-    box-sizing: border-box;
+}
+
+.leftnav:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.rightnav:hover{
+    background-color: rgba(0, 0, 0, 0.2) ;
 }
 
 main{
