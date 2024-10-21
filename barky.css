@@ -1,6 +1,5 @@
 body{
     margin: auto;
-    max-width: 1200px;
     font-family: Inter;
 }
 
@@ -216,7 +215,6 @@ main{
 
 #epdsection{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -230,6 +228,7 @@ main{
 
 #epdsection p{
     color: #999999;
+    padding: 5px;
 }
 
 #epdsection a{
@@ -333,9 +332,15 @@ color: #087fe7;
     color: #999999;
 }
 
-footer{
+#footerborder{
     border-top: 1px solid #e5e5e5;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+footer{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .black a{
@@ -351,10 +356,6 @@ footer{
 span{
     color: #050505;
     font-weight: 450;
-}
-
-#gridsecontry{
-    margin-left: 210px;
 }
 
 @media (max-width: 600px) {
