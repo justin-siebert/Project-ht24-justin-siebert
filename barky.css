@@ -34,23 +34,26 @@ body{
 #barky{
     height: 20px;
     margin-right: 10px;
+    object-fit: contain;
 }
 
 #pil{
     object-fit: contain;
-    height: 5px;
+    height: auto;
 }
 
 .leftnav{
     padding: 10px;
     text-decoration: none;
     color: black;
+    font-size: 13px;
 }
 
 .rightnav{
     text-decoration: none;
     color: black;
     padding: 10px;
+    font-size: 13px;
 }
 
 .getbarky{
@@ -59,6 +62,7 @@ body{
     border-radius: 5px;
     padding: 10px 15px;
     text-decoration: none;
+    font-size: 13px;
     box-shadow: rgba(0, 0, 0, 0.2);
 }
 
@@ -83,8 +87,9 @@ main{
 }
 
 #container-main-r img{
-    width: 100%;
+    height: 100%;
     text-align: center;
+    object-fit: contain;
 }
 
 #container-main-l{
@@ -116,8 +121,8 @@ main{
 }
 
 .h1bigpic{
-margin-bottom: 0;
-font-weight: 650;
+    margin-bottom: 0;
+    font-weight: 650;
 }
 
 .poverpic{
@@ -205,11 +210,17 @@ font-weight: 650;
     font-weight: 650;
 }
 
+.freetry p{
+    margin-bottom: 20px;
+}
+
 #epdsection{
     display: flex;
-    gap: 10px;
-   text-align: center;
-   margin-top: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #borderlr{
@@ -241,7 +252,6 @@ color: #087fe7;
 
 .flexination-r img{
     width: 500px;
-  
 }
 
 .flexination-l h1{
@@ -253,7 +263,6 @@ color: #087fe7;
 #bigh1{
     font-size: 46px;
     margin: 0;
-
 }
 
 .flexination-l p{
@@ -334,14 +343,18 @@ footer{
 }
 
 #hamburger{
-display: none;
-height: 30px;
-width: 30px;
+    display: none;
+    height: 30px;
+    width: 30px;
 }
 
 span{
     color: #050505;
     font-weight: 450;
+}
+
+#gridsecontry{
+    margin-left: 210px;
 }
 
 @media (max-width: 600px) {
@@ -394,5 +407,3 @@ span{
     }
   
 }
-
-
