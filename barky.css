@@ -178,6 +178,7 @@ main{
     margin: 50px auto;
     padding: 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 #features div{
@@ -195,7 +196,7 @@ main{
 .plan p{
     margin: 10px 0;
     font-size: 12p;
-    color: #999999;
+    color: #7f7f7f;
     line-height: 1.6;
 }
 
@@ -214,11 +215,14 @@ main{
 .freetry h1{
     color: #050505;
     font-weight: 650;
+    margin: 0;
 }
 
 .freetry p{
+    margin-top: 5px;
     margin-bottom: 20px;
     line-height: 1.6;
+    font-size: 14px;
 }
 
 #epdsection{
@@ -226,7 +230,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #borderlr{
@@ -275,6 +279,13 @@ color: #087fe7;
 .flexination-l p{
     color: #7f7f7f;
     margin: 20px 0;
+    line-height: 1.6;
+    font-size: 15;
+}
+
+.flexination-l h1{
+    font-size: 24px;
+    font-weight: 550;
 }
 
 #whydogsloveus{
@@ -445,4 +456,17 @@ span{
         width: 86%;
     }
   
+    #testgrid{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .flexination{
+        display: flex;
+        flex-direction: column
+    }
+
+    .flexination-l{
+        text-align: left;
+    }
 }
