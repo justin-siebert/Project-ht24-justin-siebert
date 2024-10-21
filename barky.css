@@ -86,17 +86,6 @@ main{
     margin: 100px auto;
 }
 
-#container-main-r img{
-    height: 100%;
-    text-align: center;
-    object-fit: contain;
-}
-
-#container-main-l{
-    text-align: left;
-    width: 100%;
-}
-
 #bildrad{
     display: flex;
     align-items: center;
@@ -326,8 +315,18 @@ color: #087fe7;
 }
 
 #rightsize img{
-    height: 30px;
+    height: 25px;
+    padding: 5px;
 }
+
+#gridsecondtry img{
+    padding: 5px;
+}
+
+#gridsecondtry p{
+    color: #666666;
+}
+
 #foot{
     display: grid;
     grid-template-columns: 300px auto;
@@ -349,6 +348,7 @@ color: #087fe7;
 .block a{
     text-decoration: none;
     color: #999999;
+    padding: 2px;
 }
 
 #footerborder{
@@ -370,6 +370,11 @@ footer{
     display: none;
     height: 30px;
     width: 30px;
+}
+
+.flexination.copy{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 }
 
 span{
@@ -461,12 +466,16 @@ span{
        flex-direction: column;
     }
 
-    .flexination{
-        display: flex;
-        flex-direction: column
+    #gridsecondtry{
+        margin-left: 50px;
     }
 
-    .flexination-l{
+    #flexinationcopy{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    #mobile2{
         text-align: left;
     }
 }
